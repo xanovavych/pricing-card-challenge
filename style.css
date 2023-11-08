@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    padding-top: 75px;
+    background-color: #e6eff6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2, h4, p {
+    margin: 0px;
+}
+#card {
+    height: 470px;
+    width: 630px;
+    box-shadow: 0px 18px 30px 3px rgba(0,0,0,0.20);
+    border-radius: 6px;
+    overflow: hidden;
+}
+#top {
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+}
+#bottom {
+    height: 55%;
+    width: 100%;
+    color: white;
+}
+#bottom-left {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    vertical-align: top;
+    background-color: #2bb3b1;
+    padding: 38px;
+}
+#bottom-right {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    vertical-align: top;
+    background-color: #4abebd;
+    padding: 38px;
+}
+#top h2 {
+    color: #2bb3b1;
+    margin-bottom: 22px;
+}
+#top h4 {
+    color: #c0df34;
+    margin-bottom: 12px;
+}
+#top p {
+    color: #98a6bd;
+    margin-bottom: 5px;
+}
+#p-dollar {
+    font-weight: 700;
+    font-size: 2rem;
+}
+button {
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+}
+#bottom-left h4 {
+    margin-bottom: 20px;
+}
+#bottom-left p {
+    margin-bottom: 30px;
+}
+#p-dollar, #p-per {
+    display: inline-block;
+}
+
+#price-container {
+    margin-bottom: 12px;
+}
+#p-per {
+    position: relative;
+    top: -4px;
+    margin-left: 6px;
+    opacity: 0.6;
+}
+ul {
+    padding: 0px;
+    list-style: none;
+    opacity: 0.6;
+    font-size: 0.9rem;
+}
+#bottom-right h4 {
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 4px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #7D9121;
+    transform: scale(1.02);
+}
